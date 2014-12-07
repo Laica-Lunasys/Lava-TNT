@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<map proto="1.3.0">
+    <name>Lava TNT</name>
+    <objective>最後まで生き残れ! / Survive to the END!</objective>
+    <version>1.0.0</version>
+    <bowspleef/>
+    <autorespawn/>
+    
+    <!-- クレジット -->
+    <authors>
+        <author>Lunasys</author>
+    </authors>
+    
+    <!-- チュートリアル -->
+    <include src="tutorial.xml" />
+    <tutorial>
+        <stage title="Bow Spleef">
+            <message>
+                <line>This map is a `a`lBow Spleef `rmap.</line>
+                <line>The objective is to be the last one alive.</line>
+            </message>
+            <message lang="ja_JP">
+                <line>このマップは`a`lBow Spleef `rマップです</line>
+                <line>他のプレイヤーを落とし、最後まで生き残って下さい！</line>
+            </message>
+        </stage>
+    </tutorial>
+
+     <!-- チーム -->     
+    <teams>
+        <team max="30" color="red">Players</team>
+    </teams>
+    
+    <!-- スポーン地点 -->
+    <spawns>
+        <!-- Spectator Spawn -->
+        <default yaw="0">
+            <cylinder base="1000,102,1000" height="1" radius="1"/>
+        </default>
+        
+        <!-- Player Spawn -->
+        <spawn team="red" yaw="-90" kit="general">
+            <cuboid min="1015,3,1015" max="985,3,985"/>
+        </spawn>
+    </spawns>
+    
+    <!-- 持ち物 -->
+    <kits>
+        <kit name="general">
+            <item name="Fire knocker" enchantment="knockback:1;arrow infinite:1;arrow fire:1" slot="0">bow</item>
+            <item name="Fire Igniter" enchantment="knockback:1" slot="1">flint_and_steel</item>
+            <item name="Bomb" damage="50" amount="2" slot="2">monster_egg</item>
+            <item name="Fire Arrow" amount="5" slot="9">arrow</item>
+        </kit>
+    </kits>
+    
+    <!-- 死亡時のアイテム削除 -->
+    <itemremove>
+        <item>bow</item>
+        <item>flint_and_steel</item>
+        <item>monster_egg</item>
+        <item>arrow</item>
+    </itemremove>
+    
+    <!-- ダメージ無効化 -->
+    <disabledamage>
+        <damage>fall</damage>
+    </disabledamage>
+    
+    <!-- ブロック破壊無効化 -->
+    <tnt>
+        <blockdamage>off</blockdamage>
+    </tnt>
+</map>
