@@ -47,9 +47,10 @@
     <!-- 持ち物 -->
     <kits>
         <kit name="general">
-            <item name="Fire knocker" enchantment="knockback:1;arrow infinite:1;arrow fire:1" slot="0">bow</item>
+            <item name="Fire Knocker" enchantment="knockback:1;arrow infinite:1;arrow fire:1" slot="0">bow</item>
             <item name="Fire Igniter" enchantment="knockback:1" slot="1">flint_and_steel</item>
-            <item name="Bomb" damage="50" amount="2" slot="2">monster_egg</item>
+            <item name="Bomb" damage="50" amount="3" slot="2">monster_egg</item>
+            <item name="Fire Machine" damage="61" amount="1" slot="3">monster_egg</item>
             <item name="Fire Arrow" amount="5" slot="9">arrow</item>
         </kit>
     </kits>
