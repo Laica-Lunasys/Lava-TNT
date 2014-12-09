@@ -21,12 +21,32 @@
             </message>
             <message lang="ja_JP">
                 <line>このマップは`a`lBow Spleef `rマップです</line>
-                <line>他のプレイヤーを落とし、最後まで生き残って下さい！</line>
+                <line>他のプレイヤーを落とし、最後まで生き残ると勝ちです。</line>
             </message>
+            
+        </stage>
+        <stage title="ギミック / Gimmick">
+            <message>
+                <line>When you press the button on the wall,</line>
+                <line>Explode center TNT Sphere and spawn Ghast.</line>
+            </message>
+            <message lang="ja_JP">
+                <line>壁にあるボタンを押すと中央のTNT球が爆発し、</line>
+                <line>ガストがスポーンします。
+        </stage>
+        
+        <stage title="最後に / At the end">
+            <message>
+                <line>Be make full use of the item.</line>
+                <line>Good luck!</line>
+            </message>
+            <message lang="ja_JP">
+                <line>アイテムを駆使すること。</line>
+                <line>頑張ってください!</line>
         </stage>
     </tutorial>
 
-     <!-- チーム -->     
+    <!-- チーム -->     
     <teams>
         <team max="30" color="red">Players</team>
     </teams>
