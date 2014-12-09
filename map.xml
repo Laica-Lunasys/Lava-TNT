@@ -32,7 +32,8 @@
             </message>
             <message lang="ja_JP">
                 <line>壁にあるボタンを押すと中央のTNT球が爆発し、</line>
-                <line>ガストがスポーンします。
+                <line>ガストがスポーンします。</line>
+            </message>
         </stage>
         
         <stage title="最後に / At the end">
@@ -43,6 +44,7 @@
             <message lang="ja_JP">
                 <line>アイテムを駆使すること。</line>
                 <line>頑張ってください!</line>
+            </message>
         </stage>
     </tutorial>
 
